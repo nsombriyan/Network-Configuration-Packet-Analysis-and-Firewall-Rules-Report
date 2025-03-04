@@ -14,4 +14,4 @@ How to set up a small network, analyze network traffic (using wireshark), and co
 
 ## **Configure Router for inte-VLAN Routing**
 
-
+## Configure DHCP on the Router
