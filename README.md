@@ -21,21 +21,24 @@
 *Dynamic Routing*
 
 ## Packet Analysis with (*Wireshark*)
-*To analyze network trafic,*
+###To analyze network trafic;
 1. Open wireshark
 2. Select the active network interfaces
 3. Click on start capturing and let it run
 
-### Analyzing Network Protocol HTTP Traffic
+*Analyzing Network Protocol HTTP Traffic*
 1. Use filter: HTTP
 2. Looking for GET and POST requests
 
-### Analyzing ARP (Address Resolution Protocol) Traffic
+*Analyzing ARP (Address Resolution Protocol)*
 1. Use filter: HTTP
 2. Checking for ARP poisoning
 
-### Analyzing DNS (Domain Name System) Traffic
+*Analyzing DNS (Domain Name System) Traffic*
 1. Use filter: DNS
 2. Check if DNS responses are from trusted server.
 
+### Identifying Abnormal Traffic
 
+
+## Fierwall Rules & Access Control List (ACLs)
