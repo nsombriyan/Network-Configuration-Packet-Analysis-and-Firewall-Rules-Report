@@ -7,3 +7,11 @@ How to set up a small network, analyze network traffic (using wireshark), and co
 2. A Switch (I used Cisco2960),
 3. Computers (I used 4 descktops)
 4. and also a DHCP Server Configured on the router
+
+## **Configure VLANs on the switch**
+1. Open the switch CLI and Enter the following commands
+2. Set Up a Trunk Port for the router
+
+## **Configure Router for inte-VLAN Routing**
+
+
