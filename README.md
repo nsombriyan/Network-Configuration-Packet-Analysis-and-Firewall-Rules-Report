@@ -3,6 +3,7 @@ How to set up a small network, analyze network traffic (using wireshark), and co
 
 ## **Network Configuration (With Cisco packet tracer)**
 ### To set up the networ, the network should have;
-A Router,
-A Switch,
-4 Descktops
+1. A Router (I used Cisco2811),
+2. A Switch (I used Cisco2960),
+3. Computers (I used 4 descktops)
+4. and also a DHCP Server Configured on the router
