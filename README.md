@@ -1,7 +1,7 @@
 # Network-Configuration-Packet-Analysis-and-Firewall-Rules-Report
 ***How to set up a small network, analyze network traffic (using wireshark), and configure firewall rules using cisco packet tracer.***
 
-## Network Configuration (With Cisco packet tracer)
+#1. Network Configuration (With Cisco packet tracer)
 ### To set up the networ, the network should have;
 1. A Router (I used Cisco2811),
 2. A Switch (I used Cisco2960),
@@ -15,3 +15,10 @@
 ## Configure Router for inte-VLAN Routing
 
 ## Configure DHCP on the Router
+
+## Configure Static and Dyamic Routing
+### Static Routing
+
+### Dynamic Routing
+
+#2. Packet Analysis with **Wireshark**
