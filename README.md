@@ -10,35 +10,34 @@
 
 ### Configure VLANs on the switch
 1. Open the switch CLI and Enter the following commands
-   >- enable
-   >- 
-   > configure t
-   > vlan 10
-   > name VLAN10
-   > exit
-   > configure t
-   > vlan 20
-   > name VLAN20
-   > exit
-   > interface fa0/1
-   > switchport mode access
-   > switchport access vlan 10
-   > exit
-   > interface fa0/2
-   > switchport mode access
-   > switchport access vlan 10
-   > exit
-   > interface fa0/3
-   > switchport mode access
-   > switchport access vlan 20
-   > exit
-   > interface fa0/4
-   > switchport mode access
-   > switchport access vlan 20
+   >- enable 
+   >- configure t
+   >- vlan 10
+   >- name VLAN10
+   >- exit
+   >- configure t
+   >- vlan 20
+   >- name VLAN20
+   >- exit
+   >- interface fa0/1
+   >- switchport mode access
+   >- switchport access vlan 10
+   >- exit
+   >- interface fa0/2
+   >- switchport mode access
+   >- switchport access vlan 10
+   >- exit
+   >- interface fa0/3
+   >- switchport mode access
+   >- switchport access vlan 20
+   >- exit
+   >- interface fa0/4
+   >- switchport mode access
+   >- switchport access vlan 20
   2. Set Up a Trunk Port for the router
-   > interface fa0/5
-   > switchport mode trunk
-   > exit
+   >- interface fa0/5
+   >- switchport mode trunk
+   >- exit
 ### Configure Router for inte-VLAN Routing
 
 ### Configure DHCP on the Router
