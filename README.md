@@ -11,11 +11,11 @@
 ### Configure VLANs on the switch
 1. Open the switch CLI and Enter the following commands
    >- enable 
-   >- configure t
+   >- config t
    >- vlan 10
    >- name VLAN10
    >- exit
-   >- configure t
+   >- config t
    >- vlan 20
    >- name VLAN20
    >- exit
@@ -39,6 +39,19 @@
    >- switchport mode trunk
    >- exit
 ### Configure Router for inte-VLAN Routing
+>- enable
+>- config t
+>- interface fa0/0
+>- no shutdown
+>- exit
+>- interface fa0/0.10
+>- encapsulate dot1q 10
+>- ip address 192.168.10.1 255.255.255.0
+>- exit
+>- interface fa0/0.20
+>- encapsulate dot1q 20
+>- ip address 192.168.20.1 255.255.255.0
+>- exit
 
 ### Configure DHCP on the Router
 
