@@ -10,7 +10,8 @@
 
 ### Configure VLANs on the switch
 1. Open the switch CLI and Enter the following commands
-   > enable>
+   >- enable
+   >- 
    > configure t
    > vlan 10
    > name VLAN10
