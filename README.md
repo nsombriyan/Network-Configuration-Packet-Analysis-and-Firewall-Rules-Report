@@ -54,10 +54,16 @@
 >- exit
 
 ### Configure DHCP on the Router
+ >- ip dhcp excluded-address 192.168.10.1 192.168.10.0
+ >- ip dhcp pool VLAN10
+ >- network 192.168.10.0 255.255.255.0
+ >- default-router 192.168.10.1
+ >- dns-server 8.8.8.8
 
 ### Configure Static and Dyamic Routing
 *Static Routing*
-\n*Dynamic Routing*
+ >- 
+*Dynamic Routing*
 
 ## Packet Analysis with (*Wireshark*)
 ###To analyze network trafic;
