@@ -62,8 +62,9 @@
 
 ### Configure Static and Dyamic Routing
 *Static Routing*
- >- 
 *Dynamic Routing*
+
+
 
 ## Packet Analysis with (*Wireshark*)
 ###To analyze network trafic;
